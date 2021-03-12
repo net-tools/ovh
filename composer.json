@@ -1,0 +1,29 @@
+{
+    "name" : "net-tools/ovh",
+	
+    "description" : "Composer library for OVH API",
+	
+	"type": "library",
+	
+	"require" : {
+		"php": ">= 7.4.0",
+        "ovh/ovh" : "^3.0.0"
+    },
+	
+	"autoload": {
+		"psr-4": {
+			"Nettools\\Ovh\\": "src/"
+		}
+    },
+	 
+    "license" : "MIT",
+
+    "authors": [
+        {
+            "name": "Pierre",
+            "email": "dev@nettools.ovh",
+            "role": "Developer"
+        }
+    ]
+
+}
