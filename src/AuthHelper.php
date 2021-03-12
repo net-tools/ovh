@@ -7,7 +7,7 @@ namespace Nettools\Ovh;
 
 
 // helper class for OVH api authentication
-class OvhAPIAuthHelper{
+class AuthHelper{
 	
 	/**
 	 * Get a consumer key and a validation url ; ovh account should be link to consumer key by visiting the url

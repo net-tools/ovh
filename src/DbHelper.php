@@ -7,7 +7,7 @@ namespace Nettools\Ovh;
 
 
 // Helper class to dump OVH database
-class OvhAPIDbHelper{
+class DbHelper{
 	
 	/** 
 	 * Dump a database
