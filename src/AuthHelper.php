@@ -60,7 +60,7 @@ class AuthHelper{
 	static function authorized()
 	{
 		session_start();
-		return $_SESSION['consumer_key'];
+		return isset($_SESSION['consumer_key'])?$_SESSION['consumer_key']:null;
 	}
 }
 
