@@ -7,7 +7,7 @@
 	
 	"require" : {
 		"php": ">= 7.4.0",
-        "net-tools/php-ovh" : "^3.0.3"
+        "ovh/ovh" : "^3.2.0"
     },
 	
 	"autoload": {
